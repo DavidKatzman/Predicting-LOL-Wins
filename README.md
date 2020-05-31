@@ -16,15 +16,15 @@
 
 ## Models and results
 
-- There were three models run:
+- There were four models run:
 	1) xgboost
 	2) logistic regression
 	3) random forest
+	4) neural network
 - Accuracy was chosen to determine which model performed the best
 	- Since in theory both red and blue should win approximately the same number of games, approximately 1/2 of the results should be 1 and the other half should be 0, so using accuracy makes the most sense
-- While all three models performed approximately the same, the logistic regression model performed the best
+- The logistic regression model performed the best
 
-## Next steps
+# Conclusion
 
-- For next steps, more features will be engineered and potentially removed in order to hopefully achieve better predictions
-
+- While it would be helpful to have more information about the champion's selected, it can still be approximated with nearly 3/4 accuracy which team will win based on statistics at the 10 minute mark of a high elo game
